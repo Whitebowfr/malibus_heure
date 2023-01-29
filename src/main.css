@@ -1,0 +1,30 @@
+.mainPaper {
+    padding: 20px;
+    transform: translate(-50%, -50%) !important
+}
+
+.centeredVertically {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+
+}
+
+.centeredHorizontally {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.secondPaper {
+    bottom: 10px;
+    width: 85%;
+}
+
+html {
+    overflow: hidden;
+}
+
+.mainHour {
+    text-align: center;
+}
