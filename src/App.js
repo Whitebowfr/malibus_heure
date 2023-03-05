@@ -15,18 +15,18 @@ const updateTime = () => {
         let todayB = new Date(today)
         today.setHours(18, 45)
         if (today.getDay() === 5 && today.getTime() < todayB.getTime()) {
-            return "12h10"
+            return "12h15"
         }
         return "18h45"
     } else {
         if (today.getDay() === 0) {
             let todayB = new Date(today)
-            today.setHours(12, 10)
+            today.setHours(12, 15)
             if (today.getTime() < todayB.getTime()) {
                 return "18h45"
             }
         }
-        return "12h10"
+        return "12h15"
     }
 }
 
